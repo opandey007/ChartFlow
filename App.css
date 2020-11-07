@@ -1,0 +1,43 @@
+#upperDiv{
+  display: inline-flex;
+  padding: 52px;
+  border: 1px solid #ccc;
+  margin-left: 25%;
+}
+
+.innerDiv{
+    border: 1px solid #ccc;
+    width: 150px;
+    background: #4272c7;
+    height: 150px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin-left: 60px;
+}
+h2{
+  text-align: center;
+}
+.arrow {
+  width: 68px;
+  position: absolute;
+  top: 174px;
+}
+
+.line {
+  margin-top: 13px;
+  width: 46px;
+  background: blue;
+  height: 4px;
+  float: left;
+}
+
+.point {
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-left: 22px solid blue;
+  float: right
+}
